@@ -27,7 +27,7 @@ public class BaseClass {
       
     
         public void launchbrowser() {
-            System.setProperty("webdriver.chrome.driver", "C:\\Webdriver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\JAR\\Driver\\chromedriver.exe");
             driver = new ChromeDriver();
         }
         public void maximize(){   
