@@ -7,10 +7,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "src/test/java/com/qa/janani/resource/feature", // Use forward slashes
-    glue = "com.qa.janani.stepDefinitions" ,      
+    features = "src/test/java/com/qa/janani/resource/feature", 
+    glue = {"com.qa.janani.stepDefinitions"},  
     dryRun = false,         
-    plugin = {"pretty", "html:target/cucumber-reports/cucumber.html"}
+    plugin = {"pretty", "json:target/cucumber.json"}
+
 
 )
 public class TestRunner {

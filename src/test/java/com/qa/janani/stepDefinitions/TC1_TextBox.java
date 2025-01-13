@@ -13,8 +13,8 @@ public class TC1_TextBox extends BaseClass{
 
     TextboxPojo textboxPojo = new TextboxPojo();
 
- @Given("the user is on the Home page")
-public void the_user_is_on_the_home_page() {
+ @Given("user is on the Home page")
+public void user_is_on_the_home_page() {
     launchbrowser();
     launchURL("https://demoqa.com/");
     maximize();
@@ -25,7 +25,7 @@ public void the_user_is_on_the_home_page() {
 public void the_user_selects_the_elements_menu() {
      //driver.findElement(TextboxPojo.ELEMENT_CLICK).click();
      
-     scrollToElementAndClick(TextboxPojo.ELEMENT_CLICK, 10);
+     ScrollToElementAndClick(TextboxPojo.ELEMENT_CLICK, 10);
   
    
 }
@@ -48,7 +48,9 @@ public void the_user_enters_the_values(String Name, String Email, String Current
 }
 @Then("user Sumbit the details")
 public void user_sumbit_the_details() {
-    driver.findElement(textboxPojo.getSubbtn()).click();
+    ScrollToElementAndClick(textboxPojo.getSubbtn(),20);
+   // driver.findElement(textboxPojo.getSubbtn()).click();
+    quit();
 }
 @Then("user Validate the outcome")
 public void user_validate_the_outcome() {

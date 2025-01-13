@@ -10,7 +10,7 @@
 
   <name>demo</name>
   <!-- FIXME change it to the project's website -->
-  <url>https://demoqa.com/</url>
+  <url>https://www.saucedemo.com/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
