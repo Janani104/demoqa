@@ -1,3 +1,7 @@
 com\qa\janani\runner\TestRunner.class
 com\qa\janani\stepDefinitions\TC1_TextBox.class
+com\qa\janani\stepDefinitions\TC5_ResetStore.class
+com\qa\janani\stepDefinitions\TC2_SauceLabsLogin.class
+com\qa\janani\stepDefinitions\TC4_BackProcess.class
 com\qa\janani\AppTest.class
+com\qa\janani\stepDefinitions\TC3_SeleniumDoc.class

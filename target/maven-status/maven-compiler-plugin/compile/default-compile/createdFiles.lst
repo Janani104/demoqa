@@ -1,3 +1,6 @@
 com\qa\janani\commonutils\baseclass\BaseClass.class
+com\qa\janani\commonutils\Pojo\AddTocartPojo.class
 com\qa\janani\commonutils\Pojo\TextboxPojo.class
 com\qa\janani\App.class
+com\qa\janani\commonutils\Pojo\DocumentPojo.class
+com\qa\janani\commonutils\Pojo\SauceLoginPojo.class
